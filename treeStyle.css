@@ -1,0 +1,44 @@
+.tree-panel .tree-panel-heading {
+    margin: -20px -20px 20px;
+    padding: 5px;
+    border-bottom: solid 1px #DFDFDF;
+}
+.tree-panel .tree-panel-heading .btn {
+    font-size: 12px;
+}
+.tree-panel #home-tree {
+    list-style: none;
+    padding: 0;
+}
+.tree-panel .tree {
+    list-style: none;
+    padding-left: 17px;
+}
+.tree-panel .tree .tree-folder .tree-folder-name {
+    padding: 2px 5px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.tree-panel .tree .tree-folder .tree-folder-name.secili {
+    background-color: #00AFF0;
+    color: #fff;
+}
+.tree-panel .tree .tree-folder .tree-folder-name.secili:hover {
+    background-color: #00AFF0;
+}
+.tree-panel .tree .tree-folder .tree-folder-name:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+.tree-panel .tree .tree-folder .tree-folder-name input {
+    vertical-align: baseline;
+    margin-right: 4px;
+    line-height: normal;
+}
+.tree-panel .tree .tree-folder .tree-folder-name i {
+    font-size: 13px;
+}
+.tree-panel .tree .tree-folder .tree-folder-name label {
+    font-weight: 400;
+    font-size: 12px;
+}
